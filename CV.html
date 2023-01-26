@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2a3c2445ba.js" crossorigin="anonymous"></script>
+    <title>Rick Rogers</title>
+    <link rel="stylesheet" href="CV.css">
+    <script src="CV.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    
+  
+    
+</head>
+
+<body class="light-theme"></body>
+   
+    
+    <section id="cv">
+      <h1 class="custom-font">Curriculum Vitae de Rick Rogers</h1>
+        <img src="chicocv.jpg" alt="Imagen de perfil" class="rounded-image">
+        <p></p>
+        
+        <div class="cv-item">
+           
+          <i class="fa-solid fa-circle-info"> Informacion Personal</i>
+          <p>Nombre: Rick Rogers</p>
+          <p>Dirección: 7411 White Oak Dr</p>
+          <p>Teléfono: (360) 722-8929</p>
+          <p>Email: rick.rogers@example.com</p>
+          
+        </div>
+        
+
+        <div class="cv-item">
+          <i class="fa-solid fa-school"> Educacion</i> 
+          <i class="fa-solid fa-graduation-cap"></i><h4>Universidad de Aidagho</h4>
+          <p>Título: Licenciado en Informática</p>
+          <p>Año de graduación: 2020</p>
+          <h4>Escuela Secundaria Northon School</h4>
+          <p>Título: Bachillerato en Ciencias</p>
+          <p>Año de graduación: 2016</p>
+        </div>
+
+        <div class="cv-item">
+          <i class="fa-solid fa-user-doctor">  Experiencia Laboral</i>
+          <h4>Empresa 1</h4>
+          <p>Cargo: Desarrollador Junior</p>
+          <p>Período: Enero 2018 - Diciembre 2020</p>
+          <h4>Empresa 2</h4>
+          <p>Cargo: Practicante de Desarrollo</p>
+          <p>Período: Julio 2016 - Diciembre 2017</p>
+        </div>
+
+        <div class="cv-item">
+          <h3>Habilidades</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML/CSS</li>
+            <li>PHP</li>
+          </ul>
+        </div>
+
+      </section>
+
+        <button id="miBoton" class="btn-more-info" onclick="location.href='https://randomuser.me'">Más Información</button>
+
+    <section id="contact-form">
+      <h2>Contacto</h2>
+      <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" required></textarea>
+    
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  
+
+    <button type="button" class="btn btn-dark" onclick="cambiarModo()">Oscuro / Claro</button>
+    
+</body>
+
+
+</html>
